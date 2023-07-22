@@ -7,7 +7,7 @@ router.get('/comment/:postId/:commentId',(req,res,next)=>{
     // console.log("the comment post of userid and same commentid"+new Date())
     // res.send("the comment post of userid and same commentid")
 
-    res.sendFile(path.join(__dirname,'commentv1.html'))
+    res.sendFile(path.join(__dirname,'html and css v1/commentv1.html'))
 })
 
 

@@ -7,14 +7,14 @@ router.get("/post/:userId/:postId",(req,res,next)=>{
     // console.log("reterive post which userid and postid same of version 2"+ new Date())
     // res.send("reterive post which userid and postid same of version 2")
 
-    res.sendFile(path.join(__dirname,'postaddv2.html'))
+    res.sendFile(path.join(__dirname,'html and css v2/postaddv2.html'))
 })
 
 router.get("/post/:userId",(req,res,next)=>{
     // console.log("reterive post which userid same of version 2"+ new Date())
     // res.send("reterive post which userid same of version 2")
 
-    res.sendFile(path.join(__dirname,'postdeletev2.html'))
+    res.sendFile(path.join(__dirname,'html and css v2/postdeletev2.html'))
 })
 
 router.post("/post",(req,res,next)=>{

@@ -7,13 +7,13 @@ router.get("/post/:userId/:postId",(req,res,next)=>{
     // console.log("reterive post which userid and postid same"+ new Date())
     // res.send("reterive post which userid and postid same")
 
-    res.sendFile(path.join(__dirname,'postaddv1.html'))
+    res.sendFile(path.join(__dirname,'html and css v1/postaddv1.html'))
 })
 
 router.get("/post/:userId",(req,res,next)=>{
     // console.log("reterive post which userid same"+ new Date())
     // res.send("reterive post which userid same")
-    res.sendFile(path.join(__dirname,'postdeletev1.html'))
+    res.sendFile(path.join(__dirname,'html and css v1/postdeletev1.html'))
 })
 
 router.post("/post",(req,res,next)=>{
